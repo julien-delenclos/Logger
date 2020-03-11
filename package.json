@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel --out-dir ./build --source-maps --copy-files ./index.js",
-    "start": "npm run build & node tester.js"
+    "build": "babel --out-dir ./ --source-maps --copy-files ./src/index.js",
+    "start": "npm run build & node src/tester.js"
   },
   "author": "",
   "license": "ISC",
